@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:gist.github.com)",
+      "Bash(\"C:/Users/peyte/OneDrive/Documents/Python Projects/RSS-skill/.venv/Scripts/pip\" install feedparser)",
+      "Bash(\"C:/Users/peyte/OneDrive/Documents/Python Projects/RSS-skill/.venv/Scripts/python\" \"C:/Users/peyte/OneDrive/Documents/Python Projects/RSS-skill/.claude/skills/rss-reader/scripts/rss_reader.py\" --list-feeds)",
+      "Bash(\"C:/Users/peyte/OneDrive/Documents/Python Projects/RSS-skill/.venv/Scripts/python\" -c \":*)",
+      "Bash(\"C:/Users/peyte/OneDrive/Documents/Python Projects/RSS-skill/.venv/Scripts/python\" \"C:/Users/peyte/OneDrive/Documents/Python Projects/RSS-skill/.claude/skills/rss-reader/scripts/rss_reader.py\" --limit 5)",
+      "Bash(\"C:/Users/peyte/OneDrive/Documents/Python Projects/RSS-skill/.venv/Scripts/python\" \"C:/Users/peyte/OneDrive/Documents/Python Projects/RSS-skill/.claude/skills/rss-reader/scripts/rss_reader.py\" --limit 5 --keyword python)",
+      "Bash(\"C:/Users/peyte/OneDrive/Documents/Python Projects/RSS-skill/.venv/Scripts/python\" \"C:/Users/peyte/OneDrive/Documents/Python Projects/RSS-skill/.claude/skills/rss-reader/scripts/rss_reader.py\" --feed simonwillison.net --limit 3)"
+    ]
+  }
+}
